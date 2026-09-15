@@ -1,0 +1,21 @@
+{
+  "replace_headers": [
+    {
+      "enabled": true,
+      "name": "x-maas-env",
+      "value": "ma-0908",
+      "comment": "火山方舟 stg 环境小流量头"
+    }
+  ],
+  "append_headers": [],
+  "remove_headers": [],
+  "replace_query_params": [],
+  "append_query_params": [],
+  "remove_query_params": [],
+  "filter": {
+    "urls": ["*://*.volcengine.com/*", "*://*.volces.com/*"],
+    "types": ["main_frame", "xmlhttprequest", "fetch"]
+  },
+  "short_name": "Ark STG",
+  "title": "火山方舟 stg 环境小流量头配置"
+}
